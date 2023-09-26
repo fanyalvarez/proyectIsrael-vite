@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Typography } from "./Components/Tipography";
+import { Typography } from "./Components/Typography";
 import { Button } from "./Components/Card";
 
 
