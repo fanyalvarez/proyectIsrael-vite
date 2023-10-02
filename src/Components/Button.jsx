@@ -11,12 +11,9 @@ export const Button = (props) => {
     "border-solid",
     "border",
     {
-      "bg-violet-950": color === "primary",
-      "text-white": color === "primary",
-      "bg-violet-700": color === "secondary",
-      "text-slate-50": color === "secondary",
-      "outline-violet-950": color === "outline",
-      "text-violet-950": color === "outline",
+      "bg-violet-950 text-white": color === "primary",
+      "bg-violet-700 text-slate-50": color === "secondary",
+      "outline-violet-950 text-violet-950": color === "outline",
     }
   );
 
