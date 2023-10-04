@@ -5,7 +5,7 @@ export const Typography = (props) => {
   // let sizeClass = ';
   // if (size === 'xl') sizeClass = 'text-3xl';
 
-  const typography = classNames("mb-3", "text-blue-600", {
+  const typography = classNames("mb-3", {
     //objeto tipos de clases que va a contener   'tw-clasname'  : 'parametro -size' === text recibido
     "text-3xl": size === "xl",
     "text-2xl": size === "lg",
