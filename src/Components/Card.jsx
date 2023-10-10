@@ -5,7 +5,8 @@ import { Typography } from "./Typography";
 export default function Card() {
   return (
     <div className="box-content w-96 bg-violet-200 border-2 border-purple-950 text-center p-2">
-      <div className="h-96  bg-contain bg-center bg-no-repeat bg-[url('https://fastly.picsum.photos/id/528/600/600.jpg?hmac=nL7SYr5EG0lf-fqe8R-dejiSaeQ0McPReRaIzYuT0uQ')]"></div>
+      <img src="https://fastly.picsum.photos/id/528/600/600.jpg?hmac=nL7SYr5EG0lf-fqe8R-dejiSaeQ0McPReRaIzYuT0uQ" alt="" />
+      {/* <div className="h-96  bg-contain bg-center bg-no-repeat bg-[url('https://fastly.picsum.photos/id/528/600/600.jpg?hmac=nL7SYr5EG0lf-fqe8R-dejiSaeQ0McPReRaIzYuT0uQ')]"></div> */}
 
       <Typography Tag="h2" size="lg" weight="black">
         Nombre del producto
